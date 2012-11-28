@@ -1,3 +1,6 @@
+# Inherit the endeavoru device
+$(call inherit-product, device/htc/endeavoru/full_endeavoru.mk)
+
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
@@ -5,11 +8,8 @@ $(call inherit-product, vendor/aokp/configs/gsm.mk)
 PRODUCT_RELEASE_NAME := endeavoru
 
 # Inherit some common aokp stuff.
-$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common.mk)
 $(call inherit-product, vendor/aokp/configs/common_versions.mk)
-
-# Inherit the endeavoru device
-$(call inherit-product, device/htc/endeavoru/full_endeavoru.mk)
 
 # Device naming
 PRODUCT_DEVICE := endeavoru
