@@ -43,9 +43,9 @@ if [ "$1" != "" ]; then
     fi
     mv -f ${SUM} ${ANDROID_PRODUCT_OUT}/aokp_endeavoru-ICJ-V"$1".zip.md5sum
 
-    finish="$(tput setaf 5)\n\n\nIceColdJelly V$1 compiled for your flashing pleasure!!!\n\n\n$(tput sgr0)"
+    finish="$(tput setaf 5)\n\n\nIceColdJelly421 V$1 compiled for your flashing pleasure!!!\n\n\n$(tput sgr0)"
     printf "$finish"
 else
-    finish="$(tput setaf 5)\n\n\nIceColdJelly unofficial compiled for your flashing pleasure!!!\n\nNOW...\nFLASH\nFLASH\nFLASH!!!\n$(tput sgr0)"
+    finish="$(tput setaf 5)\n\n\nIceColdJelly421 unofficial compiled for your flashing pleasure!!!\n\nNOW...\nFLASH\nFLASH\nFLASH!!!\n$(tput sgr0)"
     printf "$finish"
 fi
