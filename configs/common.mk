@@ -10,7 +10,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionary \
     Microbes \
     NovaLauncher \
-    PerformanceControl \
     ROMControl \
     SuperSU \
     SwagPapers \
