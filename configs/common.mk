@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
     SuperSU \
     SwagPapers \
     Torch \
-    UnicornPorn
+    UnicornPorn \
+    LockClock
 
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
