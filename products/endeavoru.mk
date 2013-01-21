@@ -23,7 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=endeavoru BUILD_FINGERPRINT="htc_eu
 
 # Copy over prebuilt boot animation
 PRODUCT_COPY_FILES +=  \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
 
 DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/endeavoru
 
