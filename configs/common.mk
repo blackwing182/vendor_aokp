@@ -9,13 +9,14 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeDictionaryPack \
     Microbes \
-    NovaLauncher \
+    Trebuchet \
     ROMControl \
     SuperSU \
     SwagPapers \
     Torch \
     UnicornPorn \
-    LockClock
+    LockClock 
+    
 
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
